@@ -1,4 +1,4 @@
-package emailvalidation;
+package practice_project_2;
 
 import java.util.ArrayList;
 import java.util.Scanner;

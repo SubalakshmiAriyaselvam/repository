@@ -1,4 +1,4 @@
-package filehandling;
+package practice_project_3;
 
 import java.io.BufferedReader;
 
