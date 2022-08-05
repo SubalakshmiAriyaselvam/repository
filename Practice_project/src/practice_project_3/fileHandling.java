@@ -29,7 +29,7 @@ public class fileHandling {
                break;
         case 3:Appendtofile(path);
                break;
-        default:System.out.println("You are trying to create other oerations hich is not in the project");
+        default:System.out.println("You are trying to create other operations which is not in the project");
         }
        }
 	

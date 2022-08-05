@@ -5,7 +5,7 @@ public class LongestIncreasingSequence
 
 	public static void main(String[] args)
 	{
-		 int[] n = {5,8,9,2,6,8,10};
+		 int[] n = {5,8,9,2,6,7,10};
 		 printLIS(n);
 		 }
 	public static void printLIS(int[] n)
@@ -19,7 +19,6 @@ public class LongestIncreasingSequence
 			path[i] = n[i] + " " ;
 		}
 
-		//Creating maxLenth to keep track
 		int maxLength = 1; 
 
 		for(int i=1; i<n.length; i++)
@@ -35,8 +34,8 @@ public class LongestIncreasingSequence
 			if(maxLength < size[i])
 				maxLength = size[i];
 			}
-		   }
-		}
+		  }
+	   }
 
 		  for(int i=1; i<n.length; i++){
 		    if(size[i] == maxLength)
