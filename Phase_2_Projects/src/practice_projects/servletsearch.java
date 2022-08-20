@@ -1,4 +1,4 @@
-package login;
+package practice_projects;
 
 import java.io.IOException;
 import java.io.PrintWriter;
