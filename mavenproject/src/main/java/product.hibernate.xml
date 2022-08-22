@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+        <hibernate-mapping>
+        <class name="com.ProductDetails.Product" table="product">
+           
+            
+        
+        <id name="P_id" column="product_id">
+        </id>
+        <property name="P_name" length="20" column="product_name"></property>
+        
+        <property name="P_price" column="price"></property>
+        <property name="P_quantity" column="quantity" ></property>
+        </class>   
+        
+        </hibernate-mapping>
