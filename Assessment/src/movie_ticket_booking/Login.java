@@ -35,13 +35,13 @@ public class Login
 		if(passwordUpdate.equals("yes")){
 			updatePassword();
 			Booking.bookTicket();
-			System.out.println("Thank you for choosing SPI Cinemas");
+			System.out.println("Thank you");
 		}
 		else{
 			System.out.println("Exit");
 			System.out.println("-----------------------------");
 			Booking.bookTicket();
-			System.out.println("Thank you for choosing SPI Cinemas");
+			System.out.println("Thank you");
 		}
 		
 		
