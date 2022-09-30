@@ -1,0 +1,40 @@
+.toolbar {
+    color:white;
+}
+.toolbar li{
+    display:inline-block;
+    height:50%;
+    line-height:45px;
+    font-size:18px;
+    border:1px dotted #555;
+    border-bottom:1px solid red;
+    min-width:70px;
+}
+.toolbar a{
+    text-decoration:none;
+    color:white;
+    display:block;
+}
+
+.toolbar a:hover{
+    background-color:red;
+    color:white;
+}
+
+.toolbar ul{
+    background-color: black;
+    list-style:none;
+    text-align:center;
+    padding:0;
+    margin:0;
+}
+
+.toolbar img {
+    margin: 0 16px;
+}
+
+.toolbar div {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 40rem;
+}
