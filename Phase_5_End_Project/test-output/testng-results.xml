@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="298521" started-at="2022-10-18T22:11:39 IST" finished-at="2022-10-18T22:16:37 IST">
+    <groups>
+      <group name="Chrome">
+        <method signature="ParallelTestMethods.LaunchChrome()[pri:0, instance:testng.parallel.ParallelTestMethods@1f554b06]" name="LaunchChrome" class="testng.parallel.ParallelTestMethods"/>
+        <method signature="ParallelTestMethods.executSessionOne()[pri:0, instance:testng.parallel.ParallelTestMethods@1f554b06]" name="executSessionOne" class="testng.parallel.ParallelTestMethods"/>
+        <method signature="ParallelTestMethods.executSessionThree()[pri:0, instance:testng.parallel.ParallelTestMethods@1f554b06]" name="executSessionThree" class="testng.parallel.ParallelTestMethods"/>
+        <method signature="ParallelTestMethods.executSessionTwo()[pri:0, instance:testng.parallel.ParallelTestMethods@1f554b06]" name="executSessionTwo" class="testng.parallel.ParallelTestMethods"/>
+      </group> <!-- Chrome -->
+    </groups>
+    <test name="Default test" duration-ms="298521" started-at="2022-10-18T22:11:39 IST" finished-at="2022-10-18T22:16:37 IST">
+      <class name="testng.parallel.ParallelTestMethods">
+        <test-method status="PASS" signature="LaunchChrome()[pri:0, instance:testng.parallel.ParallelTestMethods@1f554b06]" name="LaunchChrome" duration-ms="2014" started-at="2022-10-18T22:11:39 IST" finished-at="2022-10-18T22:11:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchChrome -->
+        <test-method status="PASS" signature="executSessionOne()[pri:0, instance:testng.parallel.ParallelTestMethods@1f554b06]" name="executSessionOne" duration-ms="98725" started-at="2022-10-18T22:11:41 IST" depends-on-methods="testng.parallel.ParallelTestMethods.LaunchChrome" finished-at="2022-10-18T22:13:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executSessionOne -->
+        <test-method status="PASS" signature="executSessionThree()[pri:0, instance:testng.parallel.ParallelTestMethods@1f554b06]" name="executSessionThree" duration-ms="118479" started-at="2022-10-18T22:13:19 IST" depends-on-methods="testng.parallel.ParallelTestMethods.LaunchChrome" finished-at="2022-10-18T22:15:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executSessionThree -->
+        <test-method status="PASS" signature="executSessionTwo()[pri:0, instance:testng.parallel.ParallelTestMethods@1f554b06]" name="executSessionTwo" duration-ms="79244" started-at="2022-10-18T22:15:18 IST" depends-on-methods="testng.parallel.ParallelTestMethods.LaunchChrome" finished-at="2022-10-18T22:16:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executSessionTwo -->
+      </class> <!-- testng.parallel.ParallelTestMethods -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
